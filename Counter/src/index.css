@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: #bca7a7;
+  text-align: center;
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 50px;
+  width: 420px;
+}
+
+.counter-title h1 {
+  font-size: 20px;
+  color: #1e293b;
+  margin-bottom: 25px;
+  letter-spacing: 5px;
+}
+.counter-display {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 12px;
+}
+.counter-display h2 {
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.counter-display span {
+  font-size: 52px;
+  font-weight: 700;
+  color: #2563eb;
+}
+.control-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.control-buttons button {
+  flex: 1;
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+.counter-display .positive {
+  color: green;
+}
+.counter-display .negative {
+  color: red;
+}
+.counter-display .neutral {
+  color: black;
+}
